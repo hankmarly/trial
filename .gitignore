@@ -1,2 +1,47 @@
-version_control.Rproj
+version_control.Rproj 
 output/
+
+# Created by https://www.gitignore.io/api/sas,stata,r
+
+### SAS ###
+# Binary data formats
+.sas7baud
+.sas7bdat
+.sas7bvew
+.sas7bndx
+.sas7bcat
+.sas7bacs
+.sas7bfdb
+.sas7bmdb
+.sas7bdmd
+.sas7bitm
+.sas7butl
+.sas7bput
+.sas7bbak
+
+
+### Stata ###
+# Binary data formats
+*.dta
+
+
+### R ###
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# Example code in package build process
+*-Ex.R
+
+# RStudio files
+.Rproj.user/
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
