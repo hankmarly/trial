@@ -1,2 +1,5 @@
+Example line edit 2 - fails
+Example line edit 2- works
+
 Example line edit - fails
 Example line edit - works
